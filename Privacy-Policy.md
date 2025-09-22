@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 layout: page
-permalink: /privacy
+permalink: /privacy-policy
 last_modified_at: 2025-09-22
 ---
 
