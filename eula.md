@@ -1,7 +1,10 @@
+---
 title: End-User License Agreement (EULA)
 layout: page
 permalink: /eula
-last\_modified\_at: 2025-09-22
+last_modified_at: 2025-09-22
+---
+
 
 # End-User License Agreement (EULA)
 
