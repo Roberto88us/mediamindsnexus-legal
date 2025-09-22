@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Media Mind QBO Invoicing Automation</title>
+  <meta name="description" content="Media Minds Nexus LLC — EULA and Privacy Policy for the Media Mind QBO Invoicing Automation for QuickBooks Online." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+  <meta property="og:title" content="Media Mind QBO Invoicing Automation" />
+  <meta property="og:description" content="EULA and Privacy Policy for the Media Mind QBO Invoicing Automation for QuickBooks Online." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root{
+      --bg:#0b1020; --card:#11172a; --muted:#9fb1c7; --accent:#4da3ff; --text:#e9eef5; --ok:#28c67a;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text); background: radial-gradient(1400px 800px at 20% -10%, #142042 0%, #0b1020 60%);
+      line-height:1.5;
+    }
+    .wrap{max-width:960px; margin:0 auto; padding:56px 20px}
+    header{display:flex; align-items:center; gap:14px; margin-bottom:28px}
+    .logo{
+      width:44px; height:44px; display:grid; place-items:center; border-radius:12px; background:linear-gradient(135deg,#4da3ff, #7bd0ff);
+      color:#051326; font-weight:800;
+    }
+    h1{margin:0; font-size:clamp(26px,4vw,38px); line-height:1.15}
+    .sub{color:var(--muted); margin-top:6px}
+    .card{
+      background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:16px; padding:22px; margin:18px 0;
+      box-shadow:0 10px 30px rgba(0,0,0,.25)
+    }
+    .grid{display:grid; grid-template-columns:1fr; gap:16px}
+    @media (min-width:800px){ .grid{grid-template-columns:1fr 1fr} }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .btns{display:flex; flex-wrap:wrap; gap:12px; margin-top:18px}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px; padding:12px 16px; border-radius:10px; border:1px solid rgba(255,255,255,.1);
+      background:#0f1730; color:var(--text); text-decoration:none; font-weight:600;
+    }
+    .btn:hover{background:#101c3a}
+    footer{margin-top:30px; color:var(--muted); font-size:14px}
+    .pill{display:inline-block; padding:4px 10px; border-radius:999px; background:rgba(77,163,255,.12); border:1px solid rgba(77,163,255,.35); color:#bfe0ff; font-size:12px}
+    .ok{color:var(--ok)}
+    .list{margin:0; padding-left:18px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">MM</div>
+      <div>
+        <h1>Media Mind QBO Invoicing Automation</h1>
+        <div class="sub">By <strong>Media Minds Nexus LLC</strong></div>
+      </div>
+    </header>
+
+    <div class="card">
+      <span class="pill">For QuickBooks Online</span>
+      <p style="margin-top:12px">
+        This site hosts our public legal pages required for QuickBooks Online app review and usage:
+        the End-User License Agreement (EULA) and Privacy Policy.
+      </p>
+      <div class="btns">
+        <a class="btn" href="/eula">📜 View EULA</a>
+        <a class="btn" href="/privacy">🔒 View Privacy Policy</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3 style="margin-top:0">What this service does</h3>
+        <ul class="list">
+          <li>Creates customers, items, and invoices in QBO from your data</li>
+          <li>Optionally emails invoices with online payment (ACH/CC) enabled</li>
+          <li>Runs via n8n automations using your own QBO connection</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">Contact</h3>
+        <p>
+          Email: <a href="mailto:legal@mediamindsnexus.com">legal@mediamindsnexus.com</a><br>
+          Address: 66 W Flagler Street, Suite 900, Miami, FL 33130, USA
+        </p>
+        <p>Status: <strong class="ok">Operational</strong></p>
+      </div>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Media Minds Nexus LLC • <a href="/eula">EULA</a> • <a href="/privacy">Privacy</a>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
