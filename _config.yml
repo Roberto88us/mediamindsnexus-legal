@@ -1,0 +1,41 @@
+# --- Site basics ---
+title: Media Mind QBO Invoicing Automation
+description: Legal pages (EULA & Privacy Policy) for Media Minds Nexus LLC’s QuickBooks Online automation.
+author: Media Minds Nexus LLC
+email: legal@mediamindsnexus.com
+
+# --- Build settings ---
+theme: minima
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+
+# --- SEO tag defaults ---
+seo:
+  name: Media Minds Nexus LLC
+  type: Organization
+
+# --- Collections & defaults ---
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+# --- Exclusions (won’t get published) ---
+exclude:
+  - README.md
+  - LICENSE
+  - .github/
+  - node_modules/
+  - package.json
+  - package-lock.json
+
+# --- Optional: social links for minima footer ---
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/Roberto88us" }
+    - { platform: email,   user_url: "mailto:legal@mediamindsnexus.com" }
